@@ -1,0 +1,16 @@
+D:\Project\Sistem Penunjang Keputusan\SPK-Aplikasi\SPK-Aplikasi\bin\Debug\SPK-Aplikasi.exe.config
+D:\Project\Sistem Penunjang Keputusan\SPK-Aplikasi\SPK-Aplikasi\obj\Debug\SPK-Aplikasi.vbprojResolveAssemblyReference.cache
+D:\Project\Sistem Penunjang Keputusan\SPK-Aplikasi\SPK-Aplikasi\obj\Debug\SPK_Aplikasi.frmLogin.resources
+D:\Project\Sistem Penunjang Keputusan\SPK-Aplikasi\SPK-Aplikasi\obj\Debug\SPK_Aplikasi.Resources.resources
+D:\Project\Sistem Penunjang Keputusan\SPK-Aplikasi\SPK-Aplikasi\obj\Debug\SPK-Aplikasi.vbproj.GenerateResource.Cache
+D:\Project\Sistem Penunjang Keputusan\SPK-Aplikasi\SPK-Aplikasi\obj\Debug\SPK-Aplikasi.xml
+D:\Project\Sistem Penunjang Keputusan\SPK-Aplikasi\SPK-Aplikasi\bin\Debug\SPK-Aplikasi.exe
+D:\Project\Sistem Penunjang Keputusan\SPK-Aplikasi\SPK-Aplikasi\bin\Debug\SPK-Aplikasi.pdb
+D:\Project\Sistem Penunjang Keputusan\SPK-Aplikasi\SPK-Aplikasi\bin\Debug\SPK-Aplikasi.xml
+D:\Project\Sistem Penunjang Keputusan\SPK-Aplikasi\SPK-Aplikasi\obj\Debug\SPK-Aplikasi.exe
+D:\Project\Sistem Penunjang Keputusan\SPK-Aplikasi\SPK-Aplikasi\obj\Debug\SPK-Aplikasi.pdb
+D:\Project\Sistem Penunjang Keputusan\SPK-Aplikasi\SPK-Aplikasi\obj\Debug\SPK_Aplikasi.frmMain.resources
+D:\Project\Sistem Penunjang Keputusan\SPK-Aplikasi\SPK-Aplikasi\obj\Debug\SPK_Aplikasi.frmLaporan.resources
+D:\Project\Sistem Penunjang Keputusan\SPK-Aplikasi\SPK-Aplikasi\obj\Debug\SPK_Aplikasi.frmHasilPanen.resources
+D:\Project\Sistem Penunjang Keputusan\SPK-Aplikasi\SPK-Aplikasi\obj\Debug\SPK_Aplikasi.frmModalAwal.resources
+D:\Project\Sistem Penunjang Keputusan\SPK-Aplikasi\SPK-Aplikasi\obj\Debug\SPK_Aplikasi.frmPengolahan.resources

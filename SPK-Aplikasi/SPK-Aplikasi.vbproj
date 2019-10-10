@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{79A63619-CE07-4062-BADF-80C649C66224}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SPK_Aplikasi.My.MyApplication</StartupObject>
+    <RootNamespace>SPK_Aplikasi</RootNamespace>
+    <AssemblyName>SPK-Aplikasi</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SPK-Aplikasi.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SPK-Aplikasi.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>SPK-Aplikasi.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>SPK-Aplikasi.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmHasilPanen.Designer.vb">
+      <DependentUpon>frmHasilPanen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHasilPanen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLaporan.Designer.vb">
+      <DependentUpon>frmLaporan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLaporan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModalAwal.Designer.vb">
+      <DependentUpon>frmModalAwal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmModalAwal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPengolahan.Designer.vb">
+      <DependentUpon>frmPengolahan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPengolahan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mdlDatabase.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmHasilPanen.resx">
+      <DependentUpon>frmHasilPanen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLaporan.resx">
+      <DependentUpon>frmLaporan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModalAwal.resx">
+      <DependentUpon>frmModalAwal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPengolahan.resx">
+      <DependentUpon>frmPengolahan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\laptop_metrics_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\menu_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\lock_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\login_rounded_right_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\login_rounded_right_60px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\speedometer_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\menu_35px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\audio_file_2_35px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\info_35px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\icons8_laptop_metrics_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\icons8_laptop_metrics_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\report_file_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\shutdown_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\system_task_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\spa_care_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\brown_potato__100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\coins_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\circled_chevron_left_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\cancel_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\add_45px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\save_45px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\delete_45px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
