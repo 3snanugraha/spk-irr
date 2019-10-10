@@ -347,7 +347,7 @@ Partial Class frmMain
         Me.ToolStripStatusLabel1.BackColor = System.Drawing.Color.Transparent
         Me.ToolStripStatusLabel1.Image = Global.SPK_Aplikasi.My.Resources.Resources.icons8_laptop_metrics_16
         Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
-        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(122, 16)
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(122, 17)
         Me.ToolStripStatusLabel1.Text = " &Aplikasi SPK - v1.0"
         '
         'MasterToolStripMenuItem

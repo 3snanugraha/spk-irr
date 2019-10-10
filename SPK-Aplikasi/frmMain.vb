@@ -117,4 +117,18 @@ Public Class frmMain
     Private Sub Label13_Click(sender As Object, e As EventArgs) Handles Label13.Click
         frmPengolahan.Show()
     End Sub
+
+    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
+        frmPerawatan.Show()
+    End Sub
+
+    Private Sub Label9_Click(sender As Object, e As EventArgs) Handles Label9.Click
+        frmPerawatan.Show()
+
+    End Sub
+
+    Private Sub Label7_Click(sender As Object, e As EventArgs) Handles Label7.Click
+        frmPerawatan.Show()
+
+    End Sub
 End Class

@@ -14,3 +14,4 @@ D:\Project\Sistem Penunjang Keputusan\SPK-Aplikasi\SPK-Aplikasi\obj\Debug\SPK_Ap
 D:\Project\Sistem Penunjang Keputusan\SPK-Aplikasi\SPK-Aplikasi\obj\Debug\SPK_Aplikasi.frmHasilPanen.resources
 D:\Project\Sistem Penunjang Keputusan\SPK-Aplikasi\SPK-Aplikasi\obj\Debug\SPK_Aplikasi.frmModalAwal.resources
 D:\Project\Sistem Penunjang Keputusan\SPK-Aplikasi\SPK-Aplikasi\obj\Debug\SPK_Aplikasi.frmPengolahan.resources
+D:\Project\Sistem Penunjang Keputusan\SPK-Aplikasi\SPK-Aplikasi\obj\Debug\SPK_Aplikasi.frmPerawatan.resources
